@@ -1,4 +1,5 @@
-//Desert program from Computer Science A level 
+//Desert program from Computer Science A level 9608_w17_qp_41 Q6
+//By Adrian Rio
 
 var animals = []
 var animalCount = 10;
@@ -11,7 +12,6 @@ function setup() {
     animal = new Animal();
     animals.push(animal);
   }
-
 }
 
 function draw() {
@@ -23,9 +23,7 @@ function draw() {
     animals[i].show();
     animals[i].move();
   }
-
 }
-
 
 function Board() {
   this.size = 40;
@@ -41,7 +39,6 @@ function Board() {
     }
   }
 }
-
 
 function Animal() {
   //generate a pair of random numbers between 0 and 39
@@ -68,7 +65,6 @@ function Animal() {
   }
 }
 
-
 function Food() {
   this.x = byte(random(39)) * 40;
   this.y = byte(random(39)) * 40;
@@ -80,5 +76,4 @@ function Food() {
     fill(0);
     text("F", this.x + 10, this.y + 30);
   }
-  
 }

@@ -1,2 +1,2 @@
 # p5
-p5 Projects
+This is a collection of all my p5 projects
